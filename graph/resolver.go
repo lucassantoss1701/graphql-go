@@ -8,4 +8,6 @@ import "github.com/lucassantoss1701/graphql-go/graph/model"
 
 type Resolver struct {
 	Categories []*model.Category
+	Courses    []*model.Course
+	Chapters   []*model.Chapter
 }
